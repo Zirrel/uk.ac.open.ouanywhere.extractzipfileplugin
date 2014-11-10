@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="uk.ac.open.ouanywhere.extractzipfileplugin" version="1.0.0">
+    <name>ExtractZipFilePlugin</name>
+    <description>ExtractZipFilePlugin Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,accessibilitystatuscheck</keywords>
+    <js-module src="www/extractzipfileplugin.js" name="extractzipfileplugin">
+        <clobbers target="extractzipfileplugin" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Unzipper">
+                <param name="ios-package" value="CDVUnzipper"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVUnzipper.h" />
+        <source-file src="src/ios/CDVUnzipper.m" />
+    </platform>
+</plugin>

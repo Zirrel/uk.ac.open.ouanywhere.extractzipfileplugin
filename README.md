@@ -1,2 +1,2 @@
-uk.ac.open.ouanywhere.extractzipfileplugin
-==========================================
+ou-plugin-test
+==============
