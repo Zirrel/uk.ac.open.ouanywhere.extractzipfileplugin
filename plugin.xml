@@ -20,8 +20,8 @@
         <source-file src="src/ios/PJHCaption.m" />
         <header-file src="src/ios/PJHUnzip.h" />
         <source-file src="src/ios/PJHUnzip.mm" />
-        <header-file src="src/ios/PJHUnzipProgress.h" />
-        <source-file src="src/ios/PJHUnzipProgress.m" />
+        <header-file src="src/ios/PJHUnzipProgess.h" />
+        <source-file src="src/ios/PJHUnzipProgess.m" />
         <header-file src="src/ios/PJHNetworkAvailability.h" />
         <source-file src="src/ios/PJHNetworkAvailability.m" />
     </platform>
