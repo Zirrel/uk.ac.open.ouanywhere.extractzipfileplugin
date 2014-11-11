@@ -16,5 +16,11 @@
         </config-file>
         <header-file src="src/ios/CDVUnzipper.h" />
         <source-file src="src/ios/CDVUnzipper.m" />
+        <header-file src="src/ios/PJHCaption.h" />
+        <source-file src="src/ios/PJHCaption.m" />
+        <header-file src="src/ios/PJHUnzip.h" />
+        <source-file src="src/ios/PJHUnzip.mm" />
+        <header-file src="src/ios/PJHUnzipProgress.h" />
+        <source-file src="src/ios/PJHUnzipProgress.m" />
     </platform>
 </plugin>
