@@ -14,6 +14,14 @@
     NSString *epubPath;
 }
 
+-(void)test:(CDVInvokedUrlCommand *)command {
+    callbackID = command.callbackId;
+    
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Unzipper"];
+    
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
 -(void)unzipFile:(CDVInvokedUrlCommand *)command {
     callbackID = command.callbackId;
     

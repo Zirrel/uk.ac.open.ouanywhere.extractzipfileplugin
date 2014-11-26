@@ -9,5 +9,6 @@
 @interface CDVUnzipper : CDVPlugin <PJHUnzipProgressDelegate>
 
 -(void)unzipFile:(CDVInvokedUrlCommand *)command;
+-(void)test:(CDVInvokedUrlCommand *)command;
 
 @end
