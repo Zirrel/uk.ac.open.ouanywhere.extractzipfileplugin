@@ -25,4 +25,11 @@
         <header-file src="src/ios/PJHNetworkAvailability.h" />
         <source-file src="src/ios/PJHNetworkAvailability.m" />
     </platform>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Unzipper">
+                <param name="android-package" value="uk.ac.open.ouanywhere.extractzipfileplugin"/>
+            </feature>
+        </config-file>
+    </platform>
 </plugin>
